@@ -1,0 +1,15 @@
+version: '3.2'
+services:  
+  assembler:
+    build:
+      context: ./
+      dockerfile: ./Dockerfile
+    volumes:
+      - type: bind
+        source: ../../
+        target: /data
+    container_name: assembler-dev     
+    ports:
+      - "9000:9000"
+      - "3001:3001"
+      
