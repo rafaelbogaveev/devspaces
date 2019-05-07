@@ -2,7 +2,7 @@
 
 ## Install DF Devspaces
 
-1. Create and install devspaces client as it is written in help guide https://support.devspaces.io/article/22-devspaces-client-installation.
+1. Download and install devspaces client from this link https://devspaces.io/devspaces/download.
 
 2. Here is some details about DF Devspaces https://devspaces.io/devspaces/help
 
