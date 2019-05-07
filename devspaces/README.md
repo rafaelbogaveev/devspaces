@@ -34,15 +34,14 @@ devspaces create
 devspaces start assembler
 ```
 
-3. Start containers synchronization
+3. Start devspace synchronization
 Open terminal on folder you want to sync with devspaces and run:
 
 ```bash
+cd ..
 devspaces bind assembler
 ```
-**Important Note**: Cockroach is a GoLang application. It is essentials to have a source code inside folder structure like this `$GOPATH/src/github.com/cockroachdb`. This is a recommend way to structure GoLang application and namely for CockroachDB project, since build will fail otherwise.
-
-4. Grab some container info
+4. Grab some devspace info
 
 ```bash
 devspaces info assembler
@@ -50,7 +49,7 @@ devspaces info assembler
 
 Retrieve published DNS, endpoints using this command and 
 
-5. Connect to development container
+5. Connect to devspace
 
 ```bash
 devspaces exec assembler
